@@ -1,0 +1,49 @@
+.display {
+  display: flex;
+  justify-content: space-between;
+}
+.display-parent {
+  display: flex;
+  gap: 10%;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px;
+  transition: all 0.5s;
+}
+.display-parent:hover {
+  transform: scale(1.02);
+}
+.display-box {
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 0px;
+}
+#bookList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.header {
+  color: antiquewhite;
+  background-color: green;
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
+  overflow-y: auto;
+  /* margin-top: 10px; */
+}
+.content-card {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.button-search {
+  font-size: 25px;
+  margin-top: 23px;
+}
